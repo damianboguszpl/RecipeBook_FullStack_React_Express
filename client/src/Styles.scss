@@ -1,0 +1,223 @@
+@use "~bootstrap/scss/bootstrap";
+
+$btn-border-radius: 3000px;
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+}
+.card-home {
+    max-width: 600px;
+    margin-bottom: 10px;
+    scale: 98%;
+}
+.card-home-profile {
+    margin-bottom: 10px;
+    scale: 98%;
+}
+.margin-10px {
+    margin: 10px;
+}
+.card-home:hover {
+    box-shadow: rgba(100, 100, 100, 0.3) 0px 4px 10px 0px;
+    cursor: pointer;
+}
+.card-header {
+    background-color: rgb(141, 206, 250);
+}
+.card-title {
+    font-weight: bold;
+}
+.card-body {
+    background-color: rgb(245, 249, 252);
+}
+.card-footer {
+    background-color: rgb(179, 222, 250);
+}
+.create-recipe-label {
+    min-width: 100px;
+}
+.auth-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.auth-form-container .auth-form-input {
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+
+  .auth-form-container button {
+    margin-top: 15px;
+    height: 40px;
+    border: none;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .auth-form-container button:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+    border-radius: 15px;
+    border: 1px solid rgb(144, 144, 252);
+  }
+  .auth-form-row {
+      background-color: rgb(217, 231, 243);
+      border-radius: 15px;
+  }
+.auth-form-field-label {
+    width: 100%;
+    text-align: left;
+}
+.auth-form-input {
+    width: 100%;
+}
+.auth-button {
+    width: 100%;
+}
+textarea {
+    min-height: 140px;
+}
+.form-error-col {
+    color: red;
+    font-size: small;
+}
+.navbar {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.nav-item {
+    margin-right: 20px;
+}
+.elem-delete-button {
+    max-width: 36px;
+    margin: 1 auto;
+    padding: 1 auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(151, 144, 144);
+    border: 1px solid rgb(0, 0, 0);
+}
+.recipe-delete-button{
+    width: 70px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 1 auto;
+    text-align: center;
+    align-items: center;
+    background-color: red;
+    border: 1px solid rgb(0, 0, 0);
+}
+.recipe-edit-button{
+    width: 70px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 1 auto;
+    text-align: center;
+    align-items: center;
+    background-color: red;
+    border: 1px solid rgb(0, 0, 0);
+}
+.comment-add-button {
+    background-color: rgb(167, 166, 166);
+}
+.button-1 {
+    background-color: rgb(167, 166, 166);
+    color:white;
+}
+.comment-delete-icon {
+    display: block;
+    margin: auto;
+    width: 14px;
+    height: 14px;
+    color: rgb(58, 19, 19);
+}
+.comment-delete-icon :hover {
+    color: rgb(114, 7, 7);
+}
+
+.comment-text{
+    color:black;
+    text-align: left;
+}
+.comment-user {
+    color:#616169;
+}
+.comment-buttons {
+    align-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.elem-like-button {
+    height: 20px;
+    width: 20px;
+    margin:4px;
+}
+.elem-unlike-button {
+    height: 20px;
+    width: 20px;
+    margin:4px;
+    opacity: 0.6;
+}
+.navbar-brand, .navbar-item {
+    color: rgb(0, 0, 0);
+}
+.navbar-item {
+    text-decoration: none;
+}
+.dropdown-menu {
+    right: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar {
+    color: white;
+    border-bottom: 1px solid rgb(250, 224, 77);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+.card img {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 175px;
+}
+html, .App {
+    background-color: #f1f4fa;
+}
+.profile-page-container {
+    width: 90%;
+}
+.profile-col {
+    width:50%;
+}
+.text-align-left {
+    text-align: left;
+}
+.align-content-center .row {
+    align-content: center;
+    padding: 0 auto;
+    align-items: center;
+}
+.col-sm-6, .col-lg-4 {
+    padding: 10px;
+}

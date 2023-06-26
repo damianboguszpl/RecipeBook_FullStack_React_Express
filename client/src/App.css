@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  align-content: center;
+}
+.recipe {
+  width: 420px;
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.recipe:hover {
+  box-shadow: rgba(100, 100, 100, 0.3) 0px 4px 10px 0px;
+  cursor: pointer;
+}
+.navbar-item-long {
+  width: 100%;
+  display: block;
+}
+.recipe .name {
+  flex: 20%;
+  border-bottom: 1px solid;
+  place-content: center;
+  background-color: rgb(6, 144, 236);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
+}
+.recipe .body {
+  flex: 60%;
+  display: grid;
+  place-content: center;
+  margin: 0;
+  padding: 0;
+}
+.recipe .footer {
+  flex: 20%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background-color: rgb(6, 144, 236);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.createRecipePage {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inputCreateRecipe {
+  width: 100%;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  margin-bottom: 20px;
+}
+.formContainer input,textarea, select {
+  background-color: rgb(243, 243, 246);
+  color: black;
+}
+.formContainer #inputCreateRecipe {
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.formContainer button {
+  margin-top: 15px;
+  height: 40px;
+  border: none;
+  background-color: rgb(167, 166, 166);
+  border-radius: 5px;
+  color: white;
+}
+.formContainer button:hover {
+  cursor: pointer;
+}
+span {
+  color: red;
+}
+.recipe-details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+}
+.recipe-details-container {
+  flex: 50%;
+  display:grid;
+  place-items: center;
+  width: 60%;
+}
+.recipe-comment-container {
+  flex:50%;
+  display:grid;
+  place-items: center;
+  min-height: 140px;
+  height: auto;
+  min-width: 100px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.recipe-comments-container {
+  place-items: center;
+  display: grid;
+  margin-top: 20px;
+}
+.comment {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.comment-details-row {
+  width: 100%;
+  min-height: 40px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.comment-details-row-title {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.recipe-details-row-title {
+  width: 100%;
+  min-height: 60px;
+}
+.recipe-details-row {
+  width: 100%;
+  min-height: 40px;
+}
+.recipe-details-row-last {
+  width: 100%;
+  min-height: 40px;
+}
+.recipe-details-title {
+  font-weight: bold;
+  font-size: 20px
+}
+.new-comment-form {
+  padding-top: 10px;
+}
+.new-comment-form .btn {
+  margin-top: 10px;
+}
+.rec-title {
+  font-weight: bold;
+}
+.card-text {
+  font-size: 14px;
+}
+.inline-block-div {
+  display: inline-block;
+  margin-right: 20px;
+}
+.prep_time_on_card {
+  margin-bottom: 6px;
+}
+.ingredient-row {
+ align-content: center;
+ padding: 0 auto;
+}
+.first-division {
+  align-items: left;
+}
+.ingredient-input {
+  margin-bottom: 5px;
+  width: 80%;
+}
+.ingredients-all-rows {
+  padding-top: 10px;
+  width: 90%;
+  margin-left: 7%;
+}
+.ingredient-row {
+  margin-bottom: 5px;
+}
+.ingredient-row button {
+  padding-top: 0;
+}
+.second-division {
+  display: block;
+  height: 40px;
+  align-items: center;
+  max-width: 60px !important;
+}
+.second-division button {
+  margin-top: 0px !important;
+}
+.ingredients-list {
+  align-content: center;
+  width: 100%;
+}
+.output {
+  margin-top: 10px;
+  text-align: left;
+}
+.output li {
+  margin: 0;
+}
+.ingredients-list, .t-a-l {
+  text-align: left;
+}
+.ingredients-ul {
+  margin-left: -17px;
+  margin-bottom: 0px;
+}
+.create-recipe-label {
+  text-decoration: underline;
+}
